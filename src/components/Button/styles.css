@@ -1,0 +1,22 @@
+button {
+
+    padding: 15px 30px;
+    background-color: darkblue;
+    color: aliceblue;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.button:active {
+    margin-bottom: 0px;
+    
+}
+
