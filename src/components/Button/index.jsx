@@ -12,7 +12,6 @@ export default function Button({onClick, text,disabled}) {
         disabled={disabled}
         onClick={onClick}
         >{text}</button>
-        
     )
 
 }
