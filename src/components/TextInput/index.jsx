@@ -6,6 +6,7 @@ export  function TextInput({ handleChange, searchValue }) {
             type={'search'}
             onChange={handleChange}
             value={searchValue}
+            placeholder={'type your search'}
         />
     )
 }
